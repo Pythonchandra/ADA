@@ -1,0 +1,6 @@
+set title "Selection Sort"
+set xrange[100:40000]
+set xlabel "size"
+set ylabel "count"
+set style data linespoints
+plot "selection.dat" u 1:2 w lp
